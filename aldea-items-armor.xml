@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Aldea Campaign Setting Armors</name>
+    <description>Mundane and magical armors available in the Aldea Campaign Setting</description>
+    <author>The Shredder</author>
+    <update version="0.1.0">
+      <file name="aldea-items-armors.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-armors.xml" />
+    </update>
+  </info>
+
+	<!-- Magical Armor -->
+	<element name="Draco-Runic Plate Armor" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_DRACO_RUNIC_PLATE_ARMOR" >
+		<description>
+			<p class="flavor">Golden plate armor with massive shining plates connected by nearly invisible purple runic fibers. These plates seemingly float from each other while maintaining a comfortable distance for the user. In addition, the armor generates a symbol on its front plate and its back plate to show the wearer’s allegiance</p>
+			<p><b><i>Damage Reduction.</i></b> When you are hit by an attack while you are wearing this armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</p>
+			<p><b><i>Zohar Tech.</i></b> This suit of armor can be fitted with Zohar Tech enhancements.</p>
+			<p class="indent"><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, the armor’s damage reduction trait now applies to all damage types.</p>
+			<p class="indent"><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the armor a charge, up to a maximum of 4. Higher level spell slots grant a number of charges equal to their level.</p>
+			<p class="indent">On your turn, you can expend any number of charges (no action required) to empower yourself with the resilience of the Ovrim. This boosted resilience lasts a number of rounds equal to the number of charges spent. Until the start of your next turn, your Strength score changes to 24, and you gain Advantage on Strength and Constitution ability checks and saving throws.</p>
+		</description>
+		<setters>
+			<set name="keywords">plate, bludgeoning, piercing, slashing</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="attunement" addition="by a Cleric, Paladin, or Fighter">true</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Plate</set>
+		</setters>
+	</element>
+
+</elements>

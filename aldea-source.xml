@@ -5,12 +5,12 @@
 			<file name="aldea-source.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-source.xml" />
 		</update>
 	</info>
-	<element name="Aldea Homebrew Collection" type="Source" source="Aldea Homebrew Collection" id="ID_ALDEA_CAMPAIGN_HOMEBREW">
+	<element name="Aldea Campaign Setting" type="Source" source="Aldea Campaign Setting" id="ID_ALDEA_CAMPAIGN_SETTING">
 		<description>
 			<![CDATA[<p>This is a collection for Shred's homebrew DnD campaign, set in the magical world of Aeretz. Within you will find mighty weapons, mystical artifacts, and powerful abilities to aid the Majestic Warriors in their quest to establish Aldea and rid the world of evil.</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">ALHC20260525</set>
+			<set name="abbreviation">ACS20260525</set>
       			<set name="author">Tregolani</set>
 			<set name="url"></set>
 			<set name="official">false</set>

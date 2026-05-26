@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aldea Campaign Setting Companions</name>
+		<description>Companions available in the Aldea Campaign Setting</description>
+		<author>The Shredder</author>
+		<update version="0.1.0">
+			<file name="aldea-companions.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-companions.xml" />
+		</update>
+	</info>
+
+	<!-- Companions -->
+	<element name="Bashan Ghost Fox" type="Companion" source="Aldea Campaign Setting" id="ID_ALDEA_COMPANION_BASHAN_GHOST_FOX">
+		<supports>Bashan Ghost Fox</supports>
+		<description></description>
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">11</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">6</set>
+			<set name="ac">13</set>
+			<set name="hp">5</set>
+			<set name="speed">30 ft., Burrow 5 ft. (loose dirt or gravel only)</set>
+			<set name="skills">Perception +3, Stealth +5 </set>
+			<set name="senses">Darkvision 60 ft., passive Perception 13</set>
+			<set name="languages">—</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_ALDEA_COMPANION_TRAIT_BASHAN_GHOST_FOX_HUNTERS_FOCUS,ID_ALDEA_COMPANION_TRAIT_BASHAN_GHOST_FOX_KEEN_HEARING</set>
+			<set name="actions">ID_ALDEA_COMPANION_ACTION_BASHAN_GHOST_FOX_BITE</set>
+			<set name="bonusActions">ID_ALDEA_COMPANION_BONUS_ACTION_BASHAN_GHOST_FOX_VANISH</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:hp:max" value="5" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:burrow" value="5" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	
+	<!-- Information Statblock -->
+	<element name="Bashan Ghost Fox" type="Information" source="Aldea Campaign Setting" id="ID_ALDEA_INFORMATION_BASHAN_GHOST_FOX_STATBLOCK">
+		<compendium display="false" />
+		<description>
+			<p style="margin-bottom:5px"><i>Tiny Beast, Unaligned</i></p>
+			<ul class="unstyled mb">
+				<li style="margin-bottom:-1em"><b>AC</b> 13</li>
+				<li style="text-align:right; margin-top:-1em"><b>Initiative</b> +3 (13)</li>
+				<li><b>HP</b> 5 (2d4)</li>
+				<li><b>Speed</b> 30 ft., Burrow 5 ft. (loose dirt or gravel only)</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td></tr>
+				<tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr>
+				<tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><b>Skills</b> Perception +3, Stealth +5</li>
+				<li><b>Senses</b> Darkvision 60 ft., Passive Perception 13</li>
+				<li><b>Languages</b> —</li>
+				<li><b>CR</b> 0 (XP 0; PB +2)</li>
+			</ul>
+			<h4 style="margin-top:5px">TRAITS</h4>
+				<p><b><i>Hunter's Focus.</i></b> The ghost fox can maintain Concentration on the <i>Hunter's Mark</i> spell for a creature with which it is bonded.</p>
+				<p><b><i>Keen Hearing.</i></b> The ghost fox has advantage on Wisdom (Perception) checks that rely on hearing.</p>
+			<h4 style="margin-top:5px">ACTIONS</h4>
+				<p><b><i>Bite.</i></b> <i>Melee Attack Roll:</i> +5, reach 5 ft.  <i>Hit:</i> 5 (1d4 + 3) Piercing damage.</p>
+			<h4 style="margin-top:5px">BONUS ACTIONS</h4>
+				<p><b><i>Vanish.</i></b> The ghost fox gains the <i>Invisible</i> condition until the end of its next turn. While <i>Invisible</i>, the fox has Resistance to all damage. The condition ends if the fox makes an attack roll or deals damage.</p>
+			</description>
+	</element>
+</elements>
