@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Aldea Homebrew Collection</name>
+		<description>A collection of homebrew items and abilities for Shred's Annals of Radiant Aldea DnD 5.5e Campaign</description>
+		<author>"Tregolani"</author>
+		<update version="1.0">
+			<file name="aldea-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-homebrew.index" />
+		</update>
+	</info>
+	<files>
+		<file name="aldea-source.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-source.xml" />
+		<file name="aldea-feats.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-feats.xml" />
+		<file name="aldea-items-armor.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-armor.xml" />
+		<file name="aldea-items-gear.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-gear.xml" />
+		<file name="aldea-items-rings.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-rings.xml" />
+		<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
+		<file name="aldea-items-wondrous.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-wondrous.xml" />
+		<file name="aldea-spells.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-spells.xml" />
+	</files>
+</index>
