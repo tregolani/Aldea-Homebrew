@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Adventuring Gear and Gels</name>
+		<description>Adventuring Gear and Gels from the Aldea Campaign Setting.</description>
+		<update version="0.0.1">
+			<file name="aldea-items-gear.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-gear.xml" />
+		</update>
+	</info>
+
+	<!-- Gels -->
+	<element name="Sour Fruit Gel (Rank 1)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SOUR_FRUIT_GEL_1" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the famously-tart tannimon fruit. Upon consumption, the creature can immediately expend 1 Hit Die to recover a single spell slot of Level 1 or lower.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sour Fruit Gel (Rank 2)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SOUR_FRUIT_GEL_2" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the famously-tart tannimon fruit. Upon consumption, the creature can immediately expend 2 Hit Dice to recover a single spell slot of Level 2 or lower.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sour Fruit Gel (Rank 3)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SOUR_FRUIT_GEL_3" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the famously-tart tannimon fruit. Upon consumption, the creature can immediately expend 3 Hit Dice to recover a single spell slot of Level 3 or lower.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">450</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sour Fruit Gel (Rank 4)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SOUR_FRUIT_GEL_4" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the famously-tart tannimon fruit. Upon consumption, the creature can immediately expend 4 Hit Dice to recover a single spell slot of Level 4 or lower.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">600</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sour Fruit Gel (Rank 5)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SOUR_FRUIT_GEL_5" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the famously-tart tannimon fruit. Upon consumption, the creature can immediately expend 5 Hit Dice to recover a single spell slot of Level 5 or lower.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Sweet Fruit Gel (Rank 1)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SWEET_FRUIT_GEL_1" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the rich, sweet golden gomello fruit. Upon consumption, the creature can recover 1 expended Hit Die, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to the roll. Additionally, the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sweet Fruit Gel (Rank 2)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SWEET_FRUIT_GEL_2" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the rich, sweet golden gomello fruit. Upon consumption, the creature can recover 2 expended Hit Dice, half of which (rounded down) can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sweet Fruit Gel (Rank 3)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SWEET_FRUIT_GEL_3" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the rich, sweet golden gomello fruit. Upon consumption, the creature can recover 3 expended Hit Dice, half of which (rounded down) can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sweet Fruit Gel (Rank 4)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SWEET_FRUIT_GEL_4" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the rich, sweet golden gomello fruit. Upon consumption, the creature can recover 4 expended Hit Dice, half of which (rounded down) can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sweet Fruit Gel (Rank 5)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SWEET_FRUIT_GEL_5" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the rich, sweet golden gomello fruit. Upon consumption, the creature can recover 5 expended Hit Dice, half of which (rounded down) can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Citrus Fruit Gel (Rank 1)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_CITRUS_FRUIT_GEL_1" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the crimson fireberry fruit, which boasts a unique sweet-but-tangy flavor palate. Upon consumption, the creature can recover 1 expended Hit Die, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to the roll. Additionally, the creature can recover a single spell slot of Level 1 or lower, and the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Citrus Fruit Gel (Rank 2)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_CITRUS_FRUIT_GEL_2" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the crimson fireberry fruit, which boasts a unique sweet-but-tangy flavor palate. Upon consumption, the creature can recover 2 expended Hit Dice, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the creature can recover a single spell slot of Level 2 or lower, and the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">600</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Citrus Fruit Gel (Rank 3)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_CITRUS_FRUIT_GEL_3" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the crimson fireberry fruit, which boasts a unique sweet-but-tangy flavor palate. Upon consumption, the creature can recover 3 expended Hit Dice, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the creature can recover a single spell slot of Level 3 or lower, and the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">900</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Citrus Fruit Gel (Rank 4)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_CITRUS_FRUIT_GEL_4" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the crimson fireberry fruit, which boasts a unique sweet-but-tangy flavor palate. Upon consumption, the creature can recover 4 expended Hit Dice, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the creature can recover a single spell slot of Level 4 or lower, and the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1200</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Citrus Fruit Gel (Rank 5)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_CITRUS_FRUIT_GEL_5" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create restorative gels by combining the pulp of certain Aeretzian fruits with arcane-infused powders. Some of these gels can catalyze great feats of physical endurance, while others can restore a portion of one's expended magical capabilities.</p>
+			<p class="indent">A creature can consume a gel as an Action. However, a creature can only consume a number of gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>This particular gel is crafted from the crimson fireberry fruit, which boasts a unique sweet-but-tangy flavor palate. Upon consumption, the creature can recover 5 expended Hit Dice, which can be rolled immediately to regain Hit Points, adding the creature's Constitution modifier to each roll. Additionally, the creature can recover a single spell slot of Level 5 or lower, and the gel provides enough nourishment to sustain the creature for one day.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+</elements>

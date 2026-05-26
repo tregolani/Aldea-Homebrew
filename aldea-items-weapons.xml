@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aldea Campaign Setting Weapons</name>
+		<description>Weapons from the Aldea Campaign Setting.</description>
+		<update version="0.0.1">
+			<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
+		</update>
+	</info>
+
+	<!-- Mundane Weapons -->
+	<element name="War Sling" type="Weapon" source="Aldea Campaign Setting" id="ID_ALDEA_WEAPON_WAR_SLING">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<h5>MASTERY</h5>
+				<p><b>Topple.</b> If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.</p>
+			</div>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="range">120/480; War Sling Bullet</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_ALDEA_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SLING</set>
+		</setters>
+	</element>
+
+	<!-- Ammunition -->
+	<element name="War Sling Bullet (Pointed)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_WAR_BULLET_POINTED">
+		<description>
+			<p>Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>
+			<p>These specialized bullets for a war sling are filed down to sharp points at both ends. When used, a war sling deals Piercing damage instead of Bludgeoning damage.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0.125">1/8 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="War Sling Bullet" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_WAR_BULLET_ROUND">
+		<description>
+			<p>Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0.125">1/8 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<!-- Proficiencies -->
+	<element name="Weapon Proficiency (War Sling)" type="Proficiency" source="Aldea Campaign Setting" id="ID_ALDEA_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SLING">
+		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_WOTC_PHB24_WEAPON_PROPERTY_TOPPLE</supports>
+	</element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_ALDEA_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SLING" />
+		</rules>
+	</append>
+	
+	<!-- Magical Weapons -->
+	<element name="Rebel-Slayer Longbow" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_REBEL_SLAYER_LONGBOW">
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A black metallic longbow with red runic etchings and silvered ornaments on its limbs. Below the handle are etchings in the shape of a dragon with a mysterious unknown draconic symbol. Above the handle are etchings of a giant and a construct with similar draconic symbols next to each one.The bowstring connects the two ends with a dark red string made from a mysterious fiber that glows when a spell is casted through it.</i></p>
+			</div>
+			<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, and you can use it as a spellcasting focus for your Ranger spells.</p>
+			<p><b><i>Zohar Tech.</i></b> This weapon can be fitted with Zohar Tech enhancements.</p>
+				<ul class="unstyled">
+					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, this weapon deals an additional 1d8 damage against Giants, Constructs, and Dragons.</li>
+					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the weapon a charge, up to a maximum of 4. Higher level spell slots grant a number of charges equal to their level.</li>
+					<li>When you take the Attack action, you can expend any number of charges to replace one attack with an empowered volley. Choose a point you can see within the bow’s range and fire an arrow into the sky. The arrow becomes encrusted in magical ice, and at the start of your next turn, it plummets down and shatters in frigid shrapnel at the chosen point. Any creatures within 10 feet of that point must make a Dexterity Saving Throw against your spell save DC. On a failure, a creature takes 2d6 Cold damage and 2d6 Piercing damage per charge expended and gains one level of <i>Exhaustion</i>. On a success, a creature takes half as much damage only.</li>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">false</set>
+			<set name="weapon">Longbow</set>
+		</setters>
+	</element>
+	<element name="Scimitar of the Dragon Riders" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_SCIMITAR_OF_THE_DRAGON_RIDERS">
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A simple curved scimitar with a leather black handle, dark bronzed single-edged blade, and without a crossguard to allow for easy spinning of the blade.</i></p>
+			</div>
+			<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
+			<p><b><i>Desert Dervish.</i></b> If you have moved at least 15 feet on your turn, you can make one weapon attack with this weapon as a Bonus Action. This is separate from the additional attack granted by the Nick property.</p>
+			<p><b><i>Parry.</i></b> While you are holding this weapon and another creature hits you with a melee attack, you can take a Reaction to add your Proficiency Bonus to your Armor Class, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">false</set>
+			<set name="weapon">Scimitar</set>
+		</setters>
+	</element>
+	<element name="Staff-Sling of the Babylonian" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_STAFF_SLING_OF_THE_BABYLONIAN">
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A long dark grey metallic quarter staff with a curious inverted pyramid-shaped finial. When activated, a strap of concentrated radiance emerges from the finial, converting the staff into a deceptively-powerful war sling.</i></p>
+			</div>
+			<p>This unique weapon can be used as either a quarterstaff or a war sling (Bludgeoning damage, no ammunition required). While you are holding this weapon, you gain proficiency with war slings, and you gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
+			<p><b><i>Zohar Tech.</i></b> This weapon can be fitted with Zohar Tech enhancements.</p>
+				<ul class="unstyled">
+					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, your Proficiency Bonus is doubled for attacks made with this weapon. In addition, you can cast <i>Laeral’s Silver Lance</i>, using the staff-sling as your spellcasting focus and expending a spell slot as normal. When you cast the spell in this manner, increase its effective level by 1, and its damage can be declared as non-lethal. </li>
+					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the weapon a charge, up to a maximum of 6. Higher level spell slots grant a number of charges equal to their level.</li>
+					<li>When you successfully hit with a melee attack with the sling-staff, you can expend any number of charges as a part of that attack to deal an additional 1d6 Lightning damage per charge expended and force the target to make a DC 13 Constitution saving throw. If three or more charges are expended at once, the target has Disadvantage on the Constitution saving throw. On a failure, the target has the <i>Stunned</i> condition for 1 minute. The <i>Stunned</i> target can make a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.</li>
+				</ul>
+			<div class="reference">
+				<div element="ID_WOTC_FRHOF_SPELL_LAERALS_SILVER_LANCE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="war sling">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">false</set>
+			<set name="weapon">War Sling</set>
+		</setters>
+	</element>
+	<element name="Sword of the Veil" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_SWORD_OF_THE_VEIL">
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A dark-blue metallic sword that glimmers purple when a bright light shines at the right angle. Its hilt and crossguard are made of the same material as its double-edged blade.</i></p>
+			</div>
+			<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
+			<p><b><i>Step Beyond.</i></b> You can use a Magic Action to cast the <i>Etherealness</i> spell. Immediately when you cast this spell, and at the start of each of your turns while the spell is active, you take 10 Psychic Damage. You can choose to end this spell at any time (no action required).</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_ETHEREALNESS" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement">false</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+</elements>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aldea Campaign Setting Feats</name>
+		<description>Feats available in the Aldea Campaign Setting.</description>
+		<author>"The Shredder"</author>
+		<update version="0.0.1">
+			<file name="aldea-feats.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-feats.xml" />
+		</update>
+	</info>
+
+	<element name="Sling Master" type="Feat" source="Aldea Campaign Setting" id="ID_ALDEA_FEAT_SLING_MASTER">
+		<supports>General</supports>
+		<requirements>([character:4],[dex:13],ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING)||ID_WOTC_PHB24_GRANTS_FEAT_UNLOCKER</requirements>
+		<prerequisite>Level 4+, Dexterity 13+, Proficiency with Slings</prerequisite>
+		<description>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Dexterity 13+, Proficiency with Slings)</p>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Dexterity score by 1, to a maximum of 20.</p>
+			<p class="indent"><b><i>Sling Master.</i></b> You gain proficiency with war slings. Additionally, when you deal damage to a creature with a sling weapon, double the number of damage dice rolled.</p>
+			<p class="indent"><b><i>Ricochet.</i></b> If you hit a creature with a sling and can use its Mastery property, you can choose to use the Cleave mastery instead, making a ranged attack against a creature within 5 feet of the original target.</p>
+		</description>
+		<sheet>
+			<description>When you deal damage to a creature with a sling weapon, double the number of damage dice rolled. Additionally, if you hit a creature with a sling and can use its Mastery property, you can choose to use the Cleave mastery instead, making a ranged attack against a creature within 5 feet of the original target.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" alt="Sling Master" />
+			<grant type="Proficiency" id="ID_ALDEA_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SLING" />
+		</rules>
+	</element>
+	
+</elements>

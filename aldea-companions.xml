@@ -4,7 +4,7 @@
 		<name>Aldea Campaign Setting Companions</name>
 		<description>Companions available in the Aldea Campaign Setting</description>
 		<author>The Shredder</author>
-		<update version="0.1.0">
+		<update version="0.0.1">
 			<file name="aldea-companions.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-companions.xml" />
 		</update>
 	</info>

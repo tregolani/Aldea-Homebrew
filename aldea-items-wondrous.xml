@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<description>Wondrous Items from the Aldea Campaign Setting</description>
+		<author url="https://marketplace.dndbeyond.com/core-rules/3710000?pid=DB3710000">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide-2024/items/items-wondrous.xml" />
+		</update>
+	</info>
+
+	<element name="Belt of Vital Force" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_BELT_OF_VITAL_FORCE" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A black belt made of rigid fibers that wrap around a wearer’s torso and core muscles to help brace them. A belt buckle with six pins latches into six symmetric holes on the other end of the belt, and the belt buckle itself has a blue gem seated in it.</i></p>
+			</div>
+			<p>While attuned to the belt, you can regain vital energy as a Bonus Action. When regaining vital energy, regain a number of Focus Points equal to half your maximum (rounded down). Alternatively, you can regain a number of expended Rage uses equal to half of your maximum (rounded down). Once you use this ability, you cannot do so again until you finish a Long Rest.</p>
+			<p class="indent">Additionally, as a Bonus Action you can expend 4 Focus Points to regain 1 expended Hit Die, or 1 Rage use to regain 2 expended Hit Dice.</p>
+			<p><b><i>Zohar Tech.</i></b> This belt can be fitted with Zohar Tech enhancements.</p>
+				<ul class="unstyled">
+					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, your Constitution score increases by 2, as does your maximum for that score.</li>
+					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the belt a charge, up to a maximum of 6. Higher level spell slots grant a number of charges equal to their level.</li>
+					<li>As an Action, you can expend any number of charges; for every two charges expended, you gain one of the following effects for 1 minute:</li>
+					<ul>
+						<li>Advantage on all Constitution and Strength checks and saving throws</li>
+						<li>Resistance to one damage type of your choosing (may be selected multiple times)</li>
+						<li>When activating your Deflect Attacks or Brutal Strikes features, the damage rolls are maximized</li>
+						<li>Increase the damage die of your melee attacks against targets within 5 feet by one step (to a maximum of a d12) and add your Proficiency Bonus to the damage result</li>
+					</ul>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="slot">waist</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by Monk or Barbarian">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Blessed Hymnbook of Yophiel" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_BLESSED_HYMNBOOK_OF_YOPHIEL" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A hymnal book using only the highest quality papyrus and bound together by leather hide. Song lyrics are written on the left pages while drawings related to each song and verse are depicted on the right pages. The book is approximately half-filled with songs and art with the back pages containing personal notes from Yophiel during Baruch’s absence.</i></p>
+			</div>
+			<p>While you are holding the hymnbook, you can use it as a spellcasting focus for your bard spells. It also contains the following spells, which you always have prepared: <i>Tasha’s Hideous Laughter, Silence, Catnap, Cacophonic Shield, Mystic Barrier.</i></p>
+			<p><b><i>Ha-Kir Agent.</i></b> While attuned to the hymnbook, you gain the following benefits:</p>
+				<ul class="unstyled">
+					<li><b><i>Thieves' Cant.</i></b> You know Thieves' Cant. If you already know Thieves’ Cant, you learn one language of your choice.</li>
+					<li><b><i>Instrument Training.</i></b> You gain proficiency with a Musical Instrument of your choice.</li>
+					<li><b><i>Distracting Melody.</i></b> When you take the Help action to assist an ally's attack roll, the enemy you're distracting can be within 30 feet of you, rather than within 5 feet of you, provided the enemy can see or hear you.</li>
+				</ul>
+			<div class="reference">
+				<div element="ID_WOTC_FRHOF_SPELL_CACOPHONIC_SHIELD" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_CATNAP" />
+			</div>
+			<div class="reference">
+				<div element="ID_ALDEA_SPELL_MYSTIC_BARRIER" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_SILENCE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_TASHAS_HIDEOUS_LAUGHTER" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">focus</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a Bard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<select type="Language" name="Language (Ha-Kir Agent)" supports="Common||Rare||Exotic||Secret" default="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
+			<select type="Proficiency" name="Instrument Proficiency (Ha-Kir Agent)" supports="Musical Instrument" />
+		</rules>
+	</element>
+	<element name="Bracelets of the All-Father's Protection" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_BRACELETS_OF_THE_ALL_FATHERS_PROTECTION" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A pair of silver bracelets with golden etchings of several celestials watching over the world of Aeretz.</i></p>
+			</div>
+			<p>While wearing these bracelets, you gain the following benefits:</p>
+				<ul class="unstyled">
+					<li><b><i>Armor Class.</i></b> You gain a +1 bonus to Armor Class if you are wearing no armor and using no Shield.</li>
+					<li><b><i>Mystic Shield.</i></b> If you are targeted by an attack or forced to make a saving throw, you can use a Reaction to impose Disadvantage on the attack or have Advantage on the saving throw.</li>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords">armor class</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="slot">wrist</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[armor:none],[shield:none]" />
+		</rules>
+	</element>
+	<element name="Fists of the Seven Stars" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_FISTS_OF_THE_SEVEN_STARS" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>Pitch black wrappings that cover the entire fist with a drawing of the constellation Ursa Major on it. The stars of the constellation glow bright purple when Focus Points are channeled through it.</i></p>
+			</div>
+			<p>While wearing these wraps, you have a +1 bonus to attack rolls and damage rolls made with your Unarmed Strikes.</p>
+			<p class="indent">Additionally, you can spend 1 Focus Point on your turn (no action required) to add your Proficiency Bonus to a single skill check or saving throw, so long as you are not Flying and do not have the Prone condition. You must choose to use this benefit before you roll the skill check or saving throw.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="slot">palms</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[armor:none],[shield:none]" />
+		</rules>
+	</element>
+	<element name="Orb of Defy Gravity" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_ORB_OF_DEFY_GRAVITY" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>When activated by a command word, it is a seemingly weightless pitch black orb that is opaque  from every outside angle. The only thing visible to outsiders is a red cloud that is constantly swirling around and descending into the orb, seemingly perpetually refilled despite entering in the void of the orb. The orb itself floats near the user, as touching the orb itself risks being brought into its vortex. When deactivated, the orb becomes a perfectly smooth bronze sphere the size of a thumbnail and weighs impossibly heavy (60 lb).</i></p>
+			</div>
+			<p>While you are attuned to the orb, you can cast the <i>Levitate</i> spell at will, targeting only yourself. You can also use it as a spellcasting focus for your spells.</p>
+			<p class="indent">The orb itself is activated by a command word. When activated, the orb follows the spellcaster and is weightless. This orb generates a small amount of wind 5 feet around the caster as well as a static charge. When the command word is spoken again, the orb deactivates and becomes a small sphere weighing 60 lbs.</p>
+			<p><b><i>Zohar Tech.</i></b> This orb can be fitted with Zohar Tech enhancements.</p>
+				<ul class="unstyled">
+					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, the orb creates a 5-foot Emanation of shielding energy. When a creature in the Emanation is forced to make a saving throw to resist an effect that deals Fire, Force, Lightning, Radiant, or Thunder damage, inflicts the <i>Deafened</i> or <i>Blinded</i> conditions, or attempts to move the creature against their will, they have Advantage on the saving throw.</li>
+					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the orb a charge, up to a maximum of 3. Higher level spell slots grant a number of charges equal to their level.</li>
+					<li>As an Action, you may summon a 10-foot-radius sphere of roiling, destructive magic appears at a point you can see within 60 feet. Each creature in the sphere makes a Constitution saving throw. On a failed save, a creature takes 2d10 Force damage per charge expended. On a successful save, a creature takes half as much damage. Any nonmagical objects in the area that aren't being worn or carried automatically take maximum damage, and any creatures or objects reduced to 0 Hit Points are disintegrated into a fine dust and absorbed into the orb.</li>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords">force</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="weight" lb="60">60 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a Sorcerer, Wizard, or Warlock">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Zohar Grapnel" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_ZOHAR_GRAPNEL" >
+		<description>
+			<div class="sidebar" style="margin-top:10px">
+				<p><i>A vambrace that parallels a wearer’s arm, with a canister containing a magical battery near the upper arm and a grey metallic cylinder mirroring the forearm. Opposite of the metallic cylinder nat the wrist is a magical metal plate that conforms to their grip. The two sections are connected by synthetic fibers to allow for flexible operations.</i></p>
+			</div>
+			<p><b><i>Grapnel Launcher.</i></b> Choose one object you can see within 50 feet. As an Action, you can activate the grapnel to fire an energy hook, which attaches itself to the chosen object. While attached, you can use a Bonus Action to retract the grapnel; when you do so, you can choose to either release the object or move yourself to an unoccupied space within 5 feet of the object. This movement does not provoke Opportunity Attacks.</p>
+			<p><b><i>Zohar Tech.</i></b> This grapnel can be fitted with Zohar Tech enhancements.</p>
+				<ul class="unstyled">
+					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, you can now use the grapnel to target creatures. It counts as a Simple Ranged weapon, and you must hit a creature in order to attach the hook to them. When you spend a Bonus Action to retract the hook, you must make a contested Strength (Athletics) check against the target. On a success, the target is moved to an unoccupied space within 5 feet of you. On a failure, you are moved to an unoccupied space within 5 feet of the target.</li>
+					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the grapnel a charge, up to a maximum of 4. Higher level spell slots grant a number of charges equal to their level.</li>
+					<li>On your turn, you can expend any number of charges (no Action required) to cause energy to surge from a creature or object hooked by the grapnel. The creature or object immediately takes 1d8 Necrotic damage per charge expended. If the target is a creature, you regain a number of Hit Points equal to the Necrotic damage dealt. If the target is an object, you gain a bonus to the next D20 Test you make before the start of your next turn equal to the Necrotic damage dealt.</li>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords">ranged</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">wrist</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a Rogue or Artificer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Chayut-Zohar Capacitor" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_CHAYUT_ZOHAR_CAPACITOR" >
+		<description>
+			<p>A <i>Chayut-Zohar Capacitor</i> is an ancient piece of Ovrim-Tevah technology that can be used to enhance or empower Ovrim-Tevah artifacts. These capacitors take 10 minutes to install or remove, and often provide passive improvements to the objects to which they are attached.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Chayut-Zohar Battery" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_CHAYUT_ZOHAR_BATTERY" >
+		<description>
+			<p>A <i>Chayut-Zohar Battery</i> is an ancient piece of Ovrim-Tevah technology that can be used to enhance or empower Ovrim-Tevah artifacts. These batteries take 1 hour to install or remove, but can be reduced to 10 minutes by someone with proficiency with Jeweler's Tools. Upon a successful installation, the battery surges with magical energy, providing it with the maximum number of charges to be used for its new or improved abilities.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
