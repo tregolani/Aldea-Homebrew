@@ -3,7 +3,7 @@
 	<info>
 		<name>Armors</name>
 		<description>Mundane and magical armors available in the Aldea Campaign Setting</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="aldea-items-armors.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-armors.xml" />
 		</update>
 	</info>
@@ -16,10 +16,10 @@
 			</div>
 			<p><b><i>Damage Reduction.</i></b> When you are hit by an attack while you are wearing this armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</p>
 			<p><b><i>Zohar Tech.</i></b> This suit of armor can be fitted with Zohar Tech enhancements.</p>
-				<ul class="unstyled">
+				<ul class="unstyled" style="margin-left:1em; margin-bottom:1px">
 					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, the armor’s damage reduction trait now applies to all damage types.</li>
 					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the armor a charge, up to a maximum of 4. Higher level spell slots grant a number of charges equal to their level.</li>
-					<li>On your turn, you can expend any number of charges (no action required) to empower yourself with the resilience of the Ovrim. This boosted resilience lasts a number of rounds equal to the number of charges spent. Until the start of your next turn, your Strength score changes to 24, and you gain Advantage on Strength and Constitution ability checks and saving throws.</li>
+					<li style="text-indent:2em">On your turn, you can expend any number of charges (no action required) to empower yourself with the resilience of the Ovrim. This boosted resilience lasts a number of rounds equal to the number of charges spent. Until the start of your next turn, your Strength score changes to 24, and you gain Advantage on Strength and Constitution ability checks and saving throws.</li>
 				</ul>
 		</description>
 		<setters>

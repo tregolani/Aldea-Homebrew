@@ -3,7 +3,7 @@
 	<info>
 		<name>Aldea Campaign Setting Weapons</name>
 		<description>Weapons from the Aldea Campaign Setting.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
 		</update>
 	</info>
@@ -74,10 +74,10 @@
 			</div>
 			<p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, and you can use it as a spellcasting focus for your Ranger spells.</p>
 			<p><b><i>Zohar Tech.</i></b> This weapon can be fitted with Zohar Tech enhancements.</p>
-				<ul class="unstyled">
+				<ul class="unstyled" style="margin-left:1em; margin-bottom:1px">
 					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, this weapon deals an additional 1d8 damage against Giants, Constructs, and Dragons.</li>
 					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the weapon a charge, up to a maximum of 4. Higher level spell slots grant a number of charges equal to their level.</li>
-					<li>When you take the Attack action, you can expend any number of charges to replace one attack with an empowered volley. Choose a point you can see within the bow’s range and fire an arrow into the sky. The arrow becomes encrusted in magical ice, and at the start of your next turn, it plummets down and shatters in frigid shrapnel at the chosen point. Any creatures within 10 feet of that point must make a Dexterity Saving Throw against your spell save DC. On a failure, a creature takes 2d6 Cold damage and 2d6 Piercing damage per charge expended and gains one level of <i>Exhaustion</i>. On a success, a creature takes half as much damage only.</li>
+					<li style="text-indent:2em">When you take the Attack action, you can expend any number of charges to replace one attack with an empowered volley. Choose a point you can see within the bow’s range and fire an arrow into the sky. The arrow becomes encrusted in magical ice, and at the start of your next turn, it plummets down and shatters in frigid shrapnel at the chosen point. Any creatures within 10 feet of that point must make a Dexterity Saving Throw against your spell save DC. On a failure, a creature takes 2d6 Cold damage and 2d6 Piercing damage per charge expended and gains one level of <i>Exhaustion</i>. On a success, a creature takes half as much damage only.</li>
 				</ul>
 		</description>
 		<setters>
@@ -116,10 +116,10 @@
 			</div>
 			<p>This unique weapon can be used as either a quarterstaff or a war sling (Bludgeoning damage, no ammunition required). While you are holding this weapon, you gain proficiency with war slings, and you gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
 			<p><b><i>Zohar Tech.</i></b> This weapon can be fitted with Zohar Tech enhancements.</p>
-				<ul class="unstyled">
+				<ul class="unstyled" style="margin-left:1em; margin-bottom:1px">
 					<li><b><i>Energy Capacitor.</i></b> If it is fitted with a <i>Zohar Energy Capacitor</i>, your Proficiency Bonus is doubled for attacks made with this weapon. In addition, you can cast <i>Laeral’s Silver Lance</i>, using the staff-sling as your spellcasting focus and expending a spell slot as normal. When you cast the spell in this manner, increase its effective level by 1, and its damage can be declared as non-lethal. </li>
 					<li><b><i>Energy Battery.</i></b> If it is fitted with a <i>Zohar Energy Battery</i>, it can be empowered with magical charges. As a Bonus Action, you can expend either a level 1+ spell slot or a Hit Die to grant the weapon a charge, up to a maximum of 6. Higher level spell slots grant a number of charges equal to their level.</li>
-					<li>When you successfully hit with a melee attack with the sling-staff, you can expend any number of charges as a part of that attack to deal an additional 1d6 Lightning damage per charge expended and force the target to make a DC 13 Constitution saving throw. If three or more charges are expended at once, the target has Disadvantage on the Constitution saving throw. On a failure, the target has the <i>Stunned</i> condition for 1 minute. The <i>Stunned</i> target can make a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.</li>
+					<li style="text-indent:2em">When you successfully hit with a melee attack with the sling-staff, you can expend any number of charges as a part of that attack to deal an additional 1d6 Lightning damage per charge expended and force the target to make a DC 13 Constitution saving throw. If three or more charges are expended at once, the target has Disadvantage on the Constitution saving throw. On a failure, the target has the <i>Stunned</i> condition for 1 minute. The <i>Stunned</i> target can make a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.</li>
 				</ul>
 			<div class="reference">
 				<div element="ID_WOTC_FRHOF_SPELL_LAERALS_SILVER_LANCE" />
