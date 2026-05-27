@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aldea Campaign Setting Spells</name>
+		<description>Homebrew spells from the Aldea Campaign Setting</description>
+		<author>The Shredder</author>
+		<update version="0.1.0">
+			<file name="aldea-spells.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-spells.xml" />
+		</update>
+	</info>
+
+	<!-- Level 2 Spells-->
+	<element name="Mystic Barrier" type="Spell" source="Aldea Campaign Setting" id="ID_ALDEA_SPELL_MYSTIC_BARRIER">
+		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>With a hurried utterance you raise your hands and a glowing magical sphere appears around you. The sphere extends from you as a 20-foot Emanation, and has a number of Hit Points equal to 10 plus your spellcasting modifier. Alternatively, you can create the sphere as a 10-foot Emanation with twice as many Hit Points. The sphere lasts until the start of your next turn, and creatures and objects can move freely through the barrier.</p>
+			<p class="indent">Damaging spells cast by creatures outside the sphere targeting any number of creatures within the sphere first deals their full damage to the barrier. Spell attacks must still roll to hit their target as normal, but always deal damage to the barrier unless the d20 result of the spell attack is a 1. If an incoming spell is reduced to 0 damage by the barrier, its targets are not affected by it. If the barrier is reduced to 0 Hit Points, the spell ends and the incoming spell's original target(s) must resolve the spell as normal, treating any remaining damage not reduced by the barrier as the spell's damage roll.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The barrier's Hit Point total increases by 5 for every spell slot level above 2.</p>
+	</description>
+		<setters>
+			<set name="keywords">barrier</set>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">Reaction, which you take when you see a creature casting a spell with Verbal, Somatic, or Material components</set>
+			<set name="duration">1 round</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a sliver of mica</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
