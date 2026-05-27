@@ -3,7 +3,7 @@
 	<info>
 		<name>Aldea Campaign Setting Weapons</name>
 		<description>Weapons from the Aldea Campaign Setting.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
 		</update>
 	</info>
@@ -134,6 +134,9 @@
 			<set name="attunement">false</set>
 			<set name="weapon">War Sling</set>
 		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_ALDEA_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SLING" />
+		</rules>
 	</element>
 	<element name="Sword of the Veil" type="Magic Item" source="Aldea Campaign Setting" id="ID_ALDEA_MAGIC_ITEM_SWORD_OF_THE_VEIL">
 		<description>
