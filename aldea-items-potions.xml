@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Potions</name>
+		<description>Potions and other consumables from the Aldea Campaign Setting.</description>
+		<update version="0.0.1">
+			<file name="aldea-items-potions.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-potions.xml" />
+		</update>
+	</info>
+
+	<!-- Fonics -->
+	<element name="Fonic Coating (Cold)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_FONIC_COATING_COLD" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Cold damage instead of its normal damage type, and you can roll one additional damage die when determining the Cold damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fonic Coating (Fire)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_FONIC_COATING_FIRE" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Fire damage instead of its normal damage type, and you can roll one additional damage die when determining the Fire damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fonic Coating (Lightning)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_FONIC_COATING_LIGHTNING" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Lightning damage instead of its normal damage type, and you can roll one additional damage die when determining the Lightning damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fonic Coating (Poison)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_FONIC_COATING_FIRE" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Poison damage instead of its normal damage type, and you can roll one additional damage die when determining the Poison damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Greater Fonic Coating (Acid)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_GREATER_FONIC_COATING_ACID" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Acid damage instead of its normal damage type, and you can roll one additional damage die when determining the Acid damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Greater Fonic Coating (Psychic)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_GREATER_FONIC_COATING_PSYCHIC" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Psychic damage instead of its normal damage type, and you can roll one additional damage die when determining the Psychic damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Greater Fonic Coating (Thunder)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_GREATER_FONIC_COATING_THUNDER" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Thunder damage instead of its normal damage type, and you can roll one additional damage die when determining the Thunder damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Supreme Fonic Coating (Force)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SUPREME_FONIC_COATING_FORCE" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Force damage instead of its normal damage type, and you can roll one additional damage die when determining the Force damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Supreme Fonic Coating (Necrotic)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SUPREME_FONIC_COATING_NECROTIC" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Necrotic damage instead of its normal damage type, and you can roll one additional damage die when determining the Necrotic damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Supreme Fonic Coating (Force)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_SUPREME_FONIC_COATING_RADIANT" >
+		<description>
+			<p>Using revolutionary Radiance refining processes, alchemists of Aeretz have managed to create compounds (known as aethers) with the ability to temporarily enhance mundane weaponry with elemental or even extraplanar energy, enabling them to cut through their enemies with unequivocal ease.</p>
+			<p>As a Bonus Action, you can coat a weapon or a quiver or pouch of ammunition with this magical aether. For the next minute when you hit with the coated weapon or ammunition, it deals Radiant damage instead of its normal damage type, and you can roll one additional damage die when determining the Radiant damage the target takes.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<!-- Potions -->
+	<element name="Azdud Olive Oil" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_AZDUD_OLIVE_OIL" >
+		<description>
+			<p>Using recipes found in ancient Ovrim texts, alchemists of Aeretz have learned to create a unique restorative oil from azdud olives.</p>
+			<p class="indent">A creature can consume the oil as a Bonus Action. However, a creature can only consume a number of oils or gels equal to their Proficiency Bonus, after which they must complete a Short Rest before they can consume more. Consuming a higher rank oil or gel is equivalent to consuming a number of gels equal to its rank.</p>
+			<p>Upon consumption, the creature can recover 3 expended Focus Points.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">120</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Darkvision Eyedrops" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_DARKVISION_EYEDROPS" >
+		<description>
+			<p>Distilled from the eyestalk glands of the nocturnal black-toed skinks of the lowlands surrounding the Mediaeretzian Sea, these bioluminescent drops can grant the user greatly enhanced vision in total darkness.</p>
+			<p>A creature can spend 1 Minute to apply these eyedrops, after which they gain Darkvision up to 60ft for the next 4 Hours.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+</elements>

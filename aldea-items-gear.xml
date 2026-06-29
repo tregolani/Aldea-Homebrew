@@ -3,7 +3,7 @@
 	<info>
 		<name>Adventuring Gear and Gels</name>
 		<description>Adventuring Gear and Gels from the Aldea Campaign Setting.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="aldea-items-gear.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-gear.xml" />
 		</update>
 	</info>
@@ -218,6 +218,59 @@
 			<set name="cost" currency="gp">1500</set>
 			<set name="weight" lb="0.5">0.5 lb.</set>
 			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<!-- Adventuring Gear -->
+	<element name="Divine Icon" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_DIVINE_ICON" >
+		<description>
+			<p>Crafted by devout artisans and blessed with holy water, these porcelain icons can act as a portable beacon of Radiance for the faithful servants of the good-aligned Aeretzian Pantheon.</p>
+			<p>As an Action, you can shatter this trinket to recharge one use of your Channel Divinity or 20 points of Lay On Hands. The Divine Icon disintegrates after use.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Enchanted Parchment Music" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_ENCHANTED_PARCHMENT_MUSIC" >
+		<description>
+			<p>As a Bonus Action, you can read the enchanted musical notation and regain one use of Bardic Inspiration or to re-roll a use of Bardic Inspiration. The parchment loses its enchantment after use.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="0.1">0.1 lb.</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Magic Lens" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_MAGIC_LENS" >
+		<description>
+			<p>As a Bonus Action, you can magically make an Investigation check (DC is target’s passive Deception) to discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; if you succeed you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are. Whether the check passes or fails, the lens becomes a frosted non-magical lens after a single use.</p>
+			<p class="indent">Re-enchanting the Magic Lens requires 10gp (consumed upon use), 10 minutes of work, and the use of the <i>Mending</i> spell or proficiency with Glassblower’s Tools.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Portable Sunlight" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_PORTABLE_SUNLIGHT" >
+		<description>
+			<p>As an Action, you can activate the gem to send out Daylight. The effects are identical to the  Daylight spell, but with a Bright Light radius of 15 feet, a Dim Light radius of an additional 15 feet, and a Duration of 10 Minutes. This counts as a Level 2 spell for the purpose of lighting.</p>
+			<p class="indent">The gem can be used similar to a Holy Symbol and can also be thrown out to 30 feet from the user. The gem can be recharged by spending 1 Hour in natural daylight.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="1.5">1.5 lb.</set>
+			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>

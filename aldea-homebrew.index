@@ -4,7 +4,7 @@
 		<name>Aldea Campaign Setting</name>
 		<description>A collection of homebrew items and abilities for Shred's Annals of Radiant Aldea DnD 5.5e Campaign</description>
 		<author>"The Shredder"</author>
-		<update version="1.0">
+		<update version="1.1">
 			<file name="aldea-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-homebrew.index" />
 		</update>
 	</info>
@@ -14,6 +14,7 @@
 		<file name="aldea-feats.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-feats.xml" />
 		<file name="aldea-items-armor.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-armor.xml" />
 		<file name="aldea-items-gear.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-gear.xml" />
+		<file name="aldea-items-potions.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-potions.xml" />
 		<file name="aldea-items-rings.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-rings.xml" />
 		<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
 		<file name="aldea-items-wondrous.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-wondrous.xml" />

@@ -3,7 +3,7 @@
 	<info>
 		<name>Aldea Campaign Setting Weapons</name>
 		<description>Weapons from the Aldea Campaign Setting.</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="aldea-items-weapons.xml" url="https://raw.githubusercontent.com/tregolani/Aldea-Homebrew/master/aldea-items-weapons.xml" />
 		</update>
 	</info>
@@ -29,6 +29,33 @@
 	</element>
 
 	<!-- Ammunition -->
+	<element name="Arrow of Maximum Damage" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_ARROW_OF_MAXIMUM_DAMAGE">
+		<description>
+			<p>When you hit a creature with this arrow, you can use the highest number possible for each die instead of rolling dice to determine the damage dealt.</p>
+			<p class="indent">This only applies to physical damage dealt by the weapon, not additional damage added by features or spells.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Faerie Fire Fletching" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_ARROW_FAERIE_FIRE_FLETCHING">
+		<description>
+			<p>On a hit, this enchanted arrow creates a burst of multicolored light on impact with an object or creature. Any creature within 10 feet of the target must make a DC13 Dexterity saving throw; on a failure, the object or creature is affected by the  Faerie Fire spell for 1 minute. After the effect fades, the arrow becomes nonmagical.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
 	<element name="War Sling Bullet (Pointed)" type="Item" source="Aldea Campaign Setting" id="ID_ALDEA_ITEM_WAR_BULLET_POINTED">
 		<description>
 			<p>Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>
